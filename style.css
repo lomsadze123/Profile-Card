@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: url(/assets/top.svg) no-repeat, url(/assets/bottom.svg) no-repeat;
+    background: url(assets/top.svg) no-repeat, url(assets/bottom.svg) no-repeat;
     background-position: right 52vw bottom 40vh, left 50vw top 50vh;
     background-color: #19A1AE;
     display: flex;
