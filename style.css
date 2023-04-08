@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    height: 100vh;
+    background: url(/assets/top.svg) no-repeat, url(/assets/bottom.svg) no-repeat;
+    background-position: right 52vw bottom 40vh, left 50vw top 50vh;
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+}
+
+.main {
+    background-color: white;
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    text-align: center;
+}
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    position: absolute;
+    margin-top: 92px;
+}
+
+.name {
+    display: flex;
+    margin-top: 72px;
+    align-items: center;
+    gap: 8.5px;
+    justify-content: center;
+}
+
+h1 {
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.32px;
+}
+
+.age {
+    color: #6B7082;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+
+}
+
+.london {
+    color: #6B7082;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.36px;
+    margin-top: 8px;
+}
+
+.hr {
+    height: 1px;
+    margin-top: 28px;
+    background-color: #E8E9EC;
+    border: none;
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    margin: 24px 54px 24px 47px;
+}
+
+.first {
+    color: #2E3349;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.32px;
+}
+
+.second {
+    color:#6B7082;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.4px;
+    letter-spacing: 1.5px;
+    margin-top: 9px;
+}
